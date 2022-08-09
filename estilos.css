@@ -173,20 +173,62 @@
 }
 
 
-/*footer*/
-footer{
-    background-color: rgb(255, 157, 250);
-    height: 50px;
-    display: flex;
+form{
+    background-color: white;
+    border: #df78ce;
+    border-color: #df78ce; 
+    border-radius: 3px;
+    color: #df78ce;
+    font-size: 0.8em;
+    padding: 12px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+input, textarea{
+    border: 1px;
+    outline: none;
+    width: 275px;
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+    
+}
+
+.center-content{
+    text-align: center;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-image: radial-gradient(#f5f1f1, #df78ce);
+    height: 23vh;
+    width: 100%;
+    text-align: center;
+}
+.p{
+    padding-top: 3vh;
+}
+.fa-brands{
+    padding-left: 10vh;
+    letter-spacing: 15vh;
+    font-size: 50px;
+    padding-top: 2vh;
+    text-align: center;
     justify-content: center;
 }
-.fa-brands fa-whatsapp{
-    background-image: url(img/whatsapp.png);
-    height: 50px;
-    width: 50px;
-    color: yellowgreen;
-    align-items: center;
-    
+.fa-instagram:hover{
+    color: rgb(139, 96, 16);
+}
+.fa-facebook:hover{
+    color: blue;
+
+}
+.fa-twitter:hover{
+    color: aqua;
 }
 /*boton de subir*/
 .subir{
@@ -200,6 +242,7 @@ footer{
     text-align: center;
     line-height: 30px;
     border-radius: 50%;
+    
     
 }
 
@@ -263,6 +306,7 @@ footer{
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(6, 1fr);
     }
+
 
 }
 

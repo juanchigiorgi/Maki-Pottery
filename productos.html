@@ -37,13 +37,10 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="productos.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -52,36 +49,50 @@
     </header>
 
 
-    <section> <!--Section 2 banner-->
+      <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/rachelyana.jpg" class="d-block w-100" alt="Raquel y Ana">
-          </div>
-          <div class="carousel-item">
-            <img src="img/platobeu.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/platoconempanadas.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+      <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/logodimensionado1.png" alt="Logo" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Maki Pottery</h3>
+          <p>Piezas con amor</p>
       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/jarronesdimensionado.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Jarrones Soft</h3>
+      </div> 
+    </div>
+    <div class="carousel-item">
+        <img src="img/setbyndimensionado.jpg" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Set New York</h3>
+        </div>  
+      </div>
+    </div>
+  
+      <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
 
-    </section>
+
+
 
     <section class="galeria"> <!--Section 3 galeria flex-->
         
@@ -94,7 +105,19 @@
             <div class="flex-container--img6"><img src="img/set blanco y negro.jpg"></div>
         </div>
     </section>
+
         <!--Script de boot-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
+      </body>
+  <footer class="footer">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <p class="p">
+        Copyright &copy; 1990-2025 Juan Cruz Giorgi, todos los derechos reservados. 
+    </p>
+  </footer>
+
+  <a href="#" class="subir"><i class="fa-solid fa-chevron-up"></i></a> 
 </html>
